@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-CommunityToolkit.Aspire.NServiceBus.Shipping-5e04bed9-9493-4a46-bec0-2a9043ad171b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+    <PackageReference Include="Npgsql" />
+    <PackageReference Include="NServiceBus.Extensions.Hosting" />
+    <PackageReference Include="NServiceBus.Heartbeat" />
+    <PackageReference Include="NServiceBus.Metrics.ServiceControl" />
+    <PackageReference Include="NServiceBus.Persistence.Sql" />
+    <PackageReference Include="NServiceBus.RabbitMQ" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../CommunityToolkit.Aspire.Hosting.ServiceControl.ServiceDefaults/CommunityToolkit.Aspire.Hosting.ServiceControl.ServiceDefaults.csproj" />
+    <ProjectReference Include="../CommunityToolkit.Aspire.Messages/CommunityToolkit.Aspire.NServiceBus.Messages.csproj" />
+  </ItemGroup>
+</Project>

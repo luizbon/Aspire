@@ -17,7 +17,7 @@
     <PackageVersion Include="Aspire.Hosting.Redis" Version="$(AspireVersion)" />
     <PackageVersion Include="Aspire.Hosting.MongoDB" Version="$(AspireVersion)" />
     <PackageVersion Include="Aspire.Hosting.MySql" Version="$(AspireVersion)" />
-    <PackageVersion Include="Aspire.Hosting.SqlServer" Version="$(AspireVersion)" />    
+    <PackageVersion Include="Aspire.Hosting.SqlServer" Version="$(AspireVersion)" />
   </ItemGroup>
   <ItemGroup Label="Core Packages">
     <!-- AspNetCore packages -->
@@ -83,6 +83,13 @@
     <PackageVersion Include="YamlDotNet" Version="16.3.0" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="7.3.1" />
     <PackageVersion Include="Microsoft.PowerShell.SDK" Version="7.4.10" />
+    <PackageVersion Include="NServiceBus.Extensions.Hosting" Version="3.0.1" />
+    <PackageVersion Include="NServiceBus.Heartbeat" Version="5.0.1" />
+    <PackageVersion Include="NServiceBus.Metrics.ServiceControl" Version="5.0.1" />
+    <PackageVersion Include="NServiceBus.RabbitMQ" Version="10.0.0" />
+    <PackageVersion Include="NServiceBus" Version="9.2.7" />
+    <PackageVersion Include="Npgsql" Version="9.0.3" />
+    <PackageVersion Include="NServiceBus.Persistence.Sql" Version="8.2.0" />
   </ItemGroup>
   <ItemGroup Label="Testing">
     <!-- Testing packages -->

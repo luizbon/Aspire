@@ -1,4 +1,13 @@
 <Solution>
+  <Folder Name="/examples/nservicebus/">
+    <Project Path="examples/nservicebus/CommunityToolkit.Aspire.Billing/CommunityToolkit.Aspire.NServiceBus.Billing.csproj" />
+    <Project Path="examples/nservicebus/CommunityToolkit.Aspire.ClientUI/CommunityToolkit.Aspire.NServiceBus.ClientUI.csproj" />
+    <Project Path="examples/nservicebus/CommunityToolkit.Aspire.Hosting.ServiceControl.AppHost/CommunityToolkit.Aspire.Hosting.ServiceControl.AppHost.csproj" />
+    <Project Path="examples/nservicebus/CommunityToolkit.Aspire.Hosting.ServiceControl.ServiceDefaults/CommunityToolkit.Aspire.Hosting.ServiceControl.ServiceDefaults.csproj" />
+    <Project Path="examples/nservicebus/CommunityToolkit.Aspire.Messages/CommunityToolkit.Aspire.NServiceBus.Messages.csproj" />
+    <Project Path="examples/nservicebus/CommunityToolkit.Aspire.Sales/CommunityToolkit.Aspire.NServiceBus.Sales.csproj" />
+    <Project Path="examples/nservicebus/CommunityToolkit.Aspire.Shipping/CommunityToolkit.Aspire.NServiceBus.Shipping.csproj" />
+  </Folder>
   <Folder Name="/examples/" />
   <Folder Name="/examples/activemq/">
     <Project Path="examples/activemq/CommunityToolkit.Aspire.Hosting.ActiveMQ.AppHost/CommunityToolkit.Aspire.Hosting.ActiveMQ.AppHost.csproj" />
@@ -163,6 +172,7 @@
     <Project Path="src/CommunityToolkit.Aspire.Hosting.RavenDB/CommunityToolkit.Aspire.Hosting.RavenDB.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.Redis.Extensions/CommunityToolkit.Aspire.Hosting.Redis.Extensions.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.Rust/CommunityToolkit.Aspire.Hosting.Rust.csproj" />
+    <Project Path="src/CommunityToolkit.Aspire.Hosting.ServiceControl/CommunityToolkit.Aspire.Hosting.ServiceControl.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.SqlDatabaseProjects/CommunityToolkit.Aspire.Hosting.SqlDatabaseProjects.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.Sqlite/CommunityToolkit.Aspire.Hosting.Sqlite.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.SqlServer.Extensions/CommunityToolkit.Aspire.Hosting.SqlServer.Extensions.csproj" />
